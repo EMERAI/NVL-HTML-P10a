@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>DEJA TU OPINION SOBRE LA COMPRA QUE HAS REALIZADO.</h1>
+    </head>
+    <body>
+        <form method="post" action="miservidor.php">
+            <div>
+                <label for=”number”>CODIGO POSTAL:</label>
+                <input id=”CODIGO POSTAL” type=”number”>
+            </div>
+            <div>
+            <label for=”NIVEL DE SATISFACCION CON EL PRODUCTO”>NIVEL DE SATISFACCION CON EL PRODUCTO:</label>
+                  <select id=”NIVEL DE SATISFACCION CON EL PRODUCTO”>
+                    <option value=”1”>1</option>
+                    <option value=”2”>2</option>
+                    <option value=”3”>3</option>
+                    <option value=”4”>4</option>
+                    <option value=”5”>5</option>
+            </div>
+            <div>
+                <label for=”text”>E-MAIL:</label>
+                <input id=”E-MAIL” type=”text”>
+            </div>
+            <div>
+                <label for=”FACTORES POSITIVOS DEL PRODUCTO”>FACTORES POSITIVOS DEL PRODUCTO:</label>
+                <input id=”FACTORES POSITIVOS DEL PRODUCTO” type=”text”>
+            </div>
+            <div>
+              <label for=”FACTORES NEGATIVOS DEL PRODUCTO”>FACTORES NEGATIVOS DEL PRODUCTo:</label>
+              <input id=”FACTORES NEGATIVOS DEL PRODUCTO” type=”text”>
+            </div>
+            <div>
+              <label for=”LA ATENCION RECIBIDA EN LA TIENDA FUE”>LA ATENCION RECIBIDA EN LA TIENDA FUE:</label>
+              <select id=”LA ATENCION RECIBIDA EN LA TIENDA FUE”>
+              <option value=”EXCELENTE”>Excelente</option>
+              <option value=”BUENO”>Bueno</option>
+              <option value=”REGULAR”>Regular</option>
+              <option value=”PESIMA”>Pesima</option>
+              </select>
+              </div>
+              <div>
+                  <label for=”VALORE LA ATENCION RECIBIDA”>VALORE LA ATENCION RECIBIDA:</label>
+                  <input type=”radio” value=”EXCELENTE”>Excelente
+                  <input type=”radio” value=”BUENA”>Buena
+                  <input type=”radio” value=”REGULAR”>Regular
+                  <input type=”radio” value=”PESIMA”>Pesima 
+              </div>
+              <div>
+                <label for=”comentario”>Comentario adicional:</label>
+                <textarea id=”comentario”></textarea>
+              </div>
+              <input type=”submit” value=”Enviar”> 
+            </form>
+        </body>
+
+
+
+</html>
